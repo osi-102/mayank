@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/a.png";
+import logo from "../assets/a.jpeg";
 import data from "./data";
 
 const Navbar = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="border-b border-neutral-900 rounded-4xl pb-4 sticky top-5 z-50 mb-20 flex items-center justify-between shadow-black shadow-xl bg-neutral-800">
       <div className="flex items-center justify-between w-full px-4 lg:px-8">
         <div className="flex items-center">
-          <img className="w-10" src={logo} alt="logo" />
+          <img className="w-16 rounded-4xl mt-4" src={logo} alt="logo" />
         </div>
         <div className="flex items-center lg:hidden">
           <button onClick={toggleMenu} className="text-white focus:outline-none">
@@ -52,7 +52,7 @@ const Navbar = () => {
           </button>
         </div>
         <div className="hidden lg:flex items-center gap-4 text-2xl">
-          <ul className="flex flex-row m-6 gap-4">
+          <ul className="flex flex-row m-6 mt-8 gap-4">
             {data.map((item) => (
               <li key={item.id} className="hover:text-cyan-500">
                 <Link to={item.link} className="cursor-pointer">

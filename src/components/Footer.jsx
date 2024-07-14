@@ -1,7 +1,9 @@
 import React from 'react';
 import { FaLinkedin, FaGithub, FaTwitter, FaInstagram, FaDownload } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { SiGmail } from 'react-icons/si';
+import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
+// import { SiGmail } from 'react-icons/si';
 
 const Footer = () => {
   return (
@@ -13,26 +15,26 @@ const Footer = () => {
           <p>Phone: +91 8881156542</p>
         </div>
         <div className="flex space-x-6">
-          <a href="mailto:your-email@example.com" className="hover:text-cyan-300" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:2003mayankchauhan.b@gmail.com" className="hover:text-cyan-300" target="_blank" rel="noopener noreferrer">
             <HiOutlineMail size={24} />
           </a>
           {/* <a href="mailto:your-gmail@example.com" className="hover:text-cyan-300" target="_blank" rel="noopener noreferrer">
             <SiGmail size={24} />
           </a> */}
-          <a href="https://linkedin.com/in/your-profile" className="hover:text-cyan-300" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/mayank-chauhan2003" className="hover:text-cyan-300" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={24} />
           </a>
-          <a href="https://github.com/your-username" className="hover:text-cyan-300" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/osi-102" className="hover:text-cyan-300" target="_blank" rel="noopener noreferrer">
             <FaGithub size={24} />
           </a>
           <a href="https://twitter.com/your-username" className="hover:text-cyan-300" target="_blank" rel="noopener noreferrer">
-            <FaTwitter size={24} />
+            <FaXTwitter size={24} />
           </a>
           <a href="https://instagram.com/your-username" className="hover:text-cyan-300" target="_blank" rel="noopener noreferrer">
             <FaInstagram size={24} />
           </a>
-          <a href="/path/to/your-resume.pdf" download className="hover:text-cyan-300">
-            <FaDownload size={24} />
+          <a href="/MayankChauhan.pdf" download className="hover:text-cyan-300">
+            <BsFillPersonLinesFill size={24} />
           </a>
         </div>
       </div>

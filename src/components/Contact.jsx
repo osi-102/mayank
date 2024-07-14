@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CONTACT } from "../constants";
+// import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
 
 const Contact = () => {
@@ -24,7 +24,9 @@ const Contact = () => {
     }).then((res) => res.json());
 
     if (res.success) {
-      setSuccessMessage("Hi!!!  I GOT YOUR MESSAGE. I WILL GET BACK TO YOU SOON. THANKS");
+      setSuccessMessage(
+        "Hi...!!!  I GOT YOUR MESSAGE. I WILL GET BACK TO YOU SOON. THANKS"
+      );
       event.target.reset(); // Reset the form
     }
   };
@@ -77,9 +79,7 @@ const Contact = () => {
         </form>
       </div>
       {successMessage && (
-        <div className="text-center text-teal-500 my-4">
-          {successMessage}
-        </div>
+        <div className="text-center text-teal-500 my-4">{successMessage}</div>
       )}
       {/* <div className="text-center tracking-tighter">
         <p className="my-4">{CONTACT.address}</p>

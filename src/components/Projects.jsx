@@ -41,6 +41,24 @@ const Projects = () => {
                   {technology}
                 </span>
               ))}
+                <span className="flex flex-row gap-4 mt-4">
+                  <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-sm text-purple-400"
+                  >
+                    Visit Project
+                  </a>
+                  <a
+                  href={project.code}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-sm text-purple-400"
+                  >
+                    Visit Code
+                  </a>
+                </span>
             </motion.div>
           </div>
         ))}

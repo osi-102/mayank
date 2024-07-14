@@ -29,12 +29,24 @@ const Experience = () => {
             transition={{ duration: 1 }}
             className="w-full max-w-xl lg:w-3/4">
               <h6 className="mb-2 font-semibold">
-                {experience.role} -{" "}
+                {experience.role}
+                </h6> 
+                <h6>
                 <span className="text-sm text-purple-400">
                   {experience.company}
                 </span>
               </h6>
-              <p className="mb-4 text-neutral-400">{experience.description}</p>
+              <p className="mb-4 text-neutral-400">
+                {experience.description.map((des, index) => (
+                <span
+                  key={index}
+                  className="flex flex-col mt-4 mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium 
+                        text-neutral-400"
+                >
+                  {des}
+                </span>
+                ))}</p>
+              
               {experience.technologies.map((technology, index) => (
                 <span
                   key={index}
@@ -44,7 +56,7 @@ const Experience = () => {
                   {technology}
                 </span>
               ))}
-              ;
+              
             </motion.div>
           </div>
         ))}

@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import SocialLinks from "./components/SocialLinks";
 import { BrowserRouter as Router } from "react-router-dom";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
             <Projects />
             <Contact />
             <SocialLinks />
+            <Footer />
           </div>
         </div>
       </div>

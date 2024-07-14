@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/b.jpeg";
+import logo from "../assets/c.jpeg";
 import data from "./data";
 
 const Navbar = () => {

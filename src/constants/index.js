@@ -8,7 +8,7 @@ export const HERO_CONTENT = `I am a passionate full stack developer with a knack
 export const ABOUT_TEXT = [
   `I am a dedicated Full Stack Developer with a strong passion for web development and AI/ML technologies.`,
   `My professional journey includes an enriching experience at Bharat Electronics Limited (BEL), where I honed my skills in software development project management within network-centric systems. During my tenure, I conducted an in-depth analysis of Defense Systems, with a particular focus on the Radar Systems utilized by our Armed Forces.`,
-  'As a UPSTSE (Uttar Pradesh State Talent Search Examination) Scholar, I have developed a comprehensive understanding of computer science. My commitment to continuous learning drives me to explore cutting-edge technologies and remain at the forefront of industry advancements.',
+  "As a UPSTSE (Uttar Pradesh State Talent Search Examination) Scholar, I have developed a comprehensive understanding of computer science. My commitment to continuous learning drives me to explore cutting-edge technologies and remain at the forefront of industry advancements.",
   `I am eager to leverage my skills and expertise to contribute to the development of innovative technologies. I am currently seeking opportunities to collaborate with dynamic teams and drive impactful projects.`,
 ];
 
@@ -72,35 +72,48 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "X-pod",
     image: project1,
     link: "https://smm-two.vercel.app",
     code: "https://github.com/osi-102",
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    description: [
+      "• Developed X-pod, a full-stack social media app with NodeJS, ExpressJS, and React, optimizing write operations by 30%.",
+      "• Implemented Firebase OAuth for secure authentication, increasing user engagement by 20% and reducing unauthorized access by 25%, enhanced search efficiency and reduced search time by 30%.",
+    ],
+    technologies: ["React", "Node.js", "MongoDB", "Express.js", "Cloudinary"],
   },
   {
-    title: "Task Management App",
+    title: "Backend for a Video Streaming Application",
     image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    link: "-",
+    code: "https://github.com/osi-102/vsp-backend",
+    description: [
+      " • Backend development for the video streaming app is 100% complete, ensuring efficient video storage. Currently focusing on frontend implementation to enhance user experience.",
+      "• Transitioning to frontend development after successfully completing backend tasks, aiming for a seamless user interface.",
+    ],
+    technologies: ["Node.js", "MongoDB", "Express.js", "Cloudinary"],
   },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  // {
+  //   title: "Task Management App",
+  //   image: project2,
+  //   description:
+  //     "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+  //   technologies: ["HTML", "CSS", "Angular", "Firebase"],
+  // },
+  // {
+  //   title: "Portfolio Website",
+  //   image: project3,
+  //   description:
+  //     "A personal portfolio website showcasing projects, skills, and contact information.",
+  //   technologies: ["HTML", "CSS", "React", "Bootstrap"],
+  // },
+  // {
+  //   title: "Blogging Platform",
+  //   image: project4,
+  //   description:
+  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+  // },
 ];
 
 export const CONTACT = {

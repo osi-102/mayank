@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, Express.js, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -87,6 +87,17 @@ export const PROJECTS = [
     image: project2,
     link: "-",
     code: "https://github.com/osi-102/vsp-backend",
+    description: [
+      " • Backend development for the video streaming app is 100% complete, ensuring efficient video storage. Currently focusing on frontend implementation to enhance user experience.",
+      "• Transitioning to frontend development after successfully completing backend tasks, aiming for a seamless user interface.",
+    ],
+    technologies: ["Node.js", "MongoDB", "Express.js", "Cloudinary"],
+  },
+  {
+    title: "Sokoban Game",
+    image: project3,
+    link: "https://osi-102.github.io/sokoban-game",
+    code: "https://github.com/osi-102",
     description: [
       " • Backend development for the video streaming app is 100% complete, ensuring efficient video storage. Currently focusing on frontend implementation to enhance user experience.",
       "• Transitioning to frontend development after successfully completing backend tasks, aiming for a seamless user interface.",

@@ -1,4 +1,4 @@
-import aboutImg from "../assets/h.jpg";
+import aboutImg from "../assets/m.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 

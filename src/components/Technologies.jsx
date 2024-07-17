@@ -2,6 +2,7 @@ import { FaNodeJs, FaGithub } from "react-icons/fa6";
 import { DiMysql } from "react-icons/di";
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
+import { TbBrandJavascript } from "react-icons/tb";
 import { animate, motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -54,6 +55,14 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <DiMysql className="text-7xl text-blue-600" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <TbBrandJavascript className="text-7xl text-yellow-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(4)}

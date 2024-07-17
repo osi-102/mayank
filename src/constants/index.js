@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.png";
-import project4 from "../assets/projects/project-4.jpg";
+import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, Express.js, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -82,6 +82,17 @@ export const PROJECTS = [
       "• Transitioning to frontend development after successfully completing backend tasks, aiming for a seamless user interface.",
     ],
     technologies: ["Node.js", "MongoDB", "Express.js", "Cloudinary"],
+  },
+  {
+    title: "Detected Centre of Tropical Cyclones",
+    image: project4,
+    link: "-",
+    code: "-",
+    description: [
+      "Automated detection of cyclone centers in INSAT-3D images using YOLOv8, enhancing resolution with interpolation and precise annotation.",
+      "Collected and formatted Bay of Bengal cyclone data (Nov 10-19, 2018) for model training; achieved classification accuracy of 50%-100% with an F1 score of 0.88.",
+    ],
+    technologies: ["Python3", "Computer vision", "YOLO-v8", "Roboflow"],
   },
 ];
 

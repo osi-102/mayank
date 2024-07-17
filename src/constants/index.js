@@ -56,8 +56,8 @@ export const PROJECTS = [
     link: "https://smm-two.vercel.app",
     code: "https://github.com/osi-102",
     description: [
-      "• Developed X-pod, a full-stack social media app with NodeJS, ExpressJS, and React, optimizing write operations by 30%.",
-      "• Implemented Firebase OAuth for secure authentication, increasing user engagement by 20% and reducing unauthorized access by 25%, enhanced search efficiency and reduced search time by 30%.",
+      "Developed X-pod, a full-stack social media app with NodeJS, ExpressJS, and React, optimizing write operations by 30%.",
+      "Implemented Firebase OAuth for secure authentication, increasing user engagement by 20% and reducing unauthorized access by 25%, enhanced search efficiency and reduced search time by 30%.",
     ],
     technologies: ["React", "Node.js", "MongoDB", "Express.js", "Cloudinary"],
   },
@@ -67,8 +67,8 @@ export const PROJECTS = [
     link: "-",
     code: "https://github.com/osi-102/vsp-backend",
     description: [
-      " • Backend development for the video streaming app is 100% complete, ensuring efficient video storage. Currently focusing on frontend implementation to enhance user experience.",
-      "• Transitioning to frontend development after successfully completing backend tasks, aiming for a seamless user interface.",
+      "Backend development for the video streaming app is 100% complete, ensuring efficient video storage. Currently focusing on frontend implementation to enhance user experience.",
+      "Transitioning to frontend development after successfully completing backend tasks, aiming for a seamless user interface.",
     ],
     technologies: ["Node.js", "MongoDB", "Express.js", "Cloudinary"],
   },
@@ -78,8 +78,8 @@ export const PROJECTS = [
     link: "https://osi-102.github.io/sokoban-game",
     code: "https://github.com/osi-102",
     description: [
-      " • Backend development for the video streaming app is 100% complete, ensuring efficient video storage. Currently focusing on frontend implementation to enhance user experience.",
-      "• Transitioning to frontend development after successfully completing backend tasks, aiming for a seamless user interface.",
+      "Backend development for the video streaming app is 100% complete, ensuring efficient video storage. Currently focusing on frontend implementation to enhance user experience.",
+      "Transitioning to frontend development after successfully completing backend tasks, aiming for a seamless user interface.",
     ],
     technologies: ["Node.js", "MongoDB", "Express.js", "Cloudinary"],
   },

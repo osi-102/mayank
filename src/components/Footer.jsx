@@ -23,10 +23,10 @@ const Footer = () => {
           <a href="https://github.com/osi-102" title="GitHub" className="hover:text-cyan-300" target="_blank" rel="noopener noreferrer">
             <FaGithub size={24} />
           </a>
-          <a href="https://twitter.com/your-username" title="Twitter" className="hover:text-cyan-300" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/Mayank120210" title="Twitter" className="hover:text-cyan-300" target="_blank" rel="noopener noreferrer">
             <FaXTwitter size={24} />
           </a>
-          <a href="https://instagram.com/your-username" title="Instagram" className="hover:text-cyan-300" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/miomik201" title="Instagram" className="hover:text-cyan-300" target="_blank" rel="noopener noreferrer">
             <FaInstagram size={24} />
           </a>
           <a href="/MayankChauhan.pdf" title="Download Resume" download className="hover:text-cyan-300">

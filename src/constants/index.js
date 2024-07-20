@@ -12,6 +12,15 @@ export const ABOUT_TEXT = [
   `I am eager to leverage my skills and expertise to contribute to the development of innovative technologies. I am currently seeking opportunities to collaborate with dynamic teams and drive impactful projects.`,
 ];
 
+export const DATA = [
+  { title: "About", href: "#about" },
+  { title: "Technologies", href: "#technologies" },
+  { title: "Experience", href: "#experience" },
+  { title: "Projects", href: "#projects" },
+  // { title: "Testimonials", href: "#testimonials" },
+  { title: "Contact", href: "#contact" },
+];
+
 export const EXPERIENCES = [
   {
     year: "June 2023 - July 2024",

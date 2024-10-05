@@ -4,6 +4,21 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
+:root {
   font-family: "Inter", sans-serif;
 }
+
+/* Enable smooth scrolling for the entire document */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional: Customize smooth scroll speed and easing (if needed) */
+html {
+  scroll-behavior: smooth;
+  --scroll-behavior: smooth;
+}
+
+/* Customize selection background and text colors */
+/* .selection:bg-cyan-300; */
+/* .selection:text-cyan-900; */

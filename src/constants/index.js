@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, Express.js, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -36,7 +37,7 @@ export const EXPERIENCES = [
     technologies: ["Javascript", "HTML", "CSS", "React.js"],
   },
   {
-    year: "Jan, 2024- present",
+    year: "Jan, 2024 - July, 2024",
     role: "Full Stack Intern",
     company:
       "Cehpoint E-Learning And Cyber Security, Kolkata, West Bengal, India",
@@ -102,6 +103,17 @@ export const PROJECTS = [
       "Collected and formatted Bay of Bengal cyclone data (Nov 10-19, 2018) for model training; achieved classification accuracy of 50%-100% with an F1 score of 0.88.",
     ],
     technologies: ["Python3", "Computer vision", "YOLO-v8", "Roboflow"],
+  },
+  {
+    title: "Bill Management System for small businesses and stores",
+    image: project5,
+    link: "http://localhost:3000/register",
+    code: "-",
+    description: [
+      // "Automated detection of cyclone centers in INSAT-3D images using YOLOv8, enhancing resolution with interpolation and precise annotation.",
+      // "Collected and formatted Bay of Bengal cyclone data (Nov 10-19, 2018) for model training; achieved classification accuracy of 50%-100% with an F1 score of 0.88.",
+    ],
+    technologies: ["React.js", "Firebase", "tailwind CSS"],
   },
 ];
 

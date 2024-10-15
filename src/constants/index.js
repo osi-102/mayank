@@ -107,7 +107,7 @@ export const PROJECTS = [
   {
     title: "Bill Management System for small businesses and stores",
     image: project5,
-    link: "http://localhost:3000/register",
+    link: "https://invoicem-mayank-chauhans-projects-ff4f3bb5.vercel.app/register",
     code: "-",
     description: [
       // "Automated detection of cyclone centers in INSAT-3D images using YOLOv8, enhancing resolution with interpolation and precise annotation.",

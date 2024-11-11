@@ -108,7 +108,7 @@ export const PROJECTS = [
     title: "Bill Management System for small businesses and stores",
     image: project5,
     link: "https://invoicem-mayank-chauhans-projects-ff4f3bb5.vercel.app/register",
-    code: "-",
+    code: "https://github.com/osi-102/invoice_m",
     description: [
       // "Automated detection of cyclone centers in INSAT-3D images using YOLOv8, enhancing resolution with interpolation and precise annotation.",
       // "Collected and formatted Bay of Bengal cyclone data (Nov 10-19, 2018) for model training; achieved classification accuracy of 50%-100% with an F1 score of 0.88.",
